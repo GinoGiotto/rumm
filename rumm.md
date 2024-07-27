@@ -116,7 +116,7 @@ Example:
 If the current goal is an implication `->`, this tactics applies `@T1`.
 If it is a conjunction `/\`, it applies `@T2`.
 
-The metavariables used in the matched formula pattern hold an expression that can be used in the provided tactic:
+The metavariables used in the matched formula pattern hold an expression that can be used in the provided tactics:
 ```
 proof ~alinexa
 { match goal
