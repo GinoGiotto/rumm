@@ -284,9 +284,7 @@ proof ~stdpc5v
     with ~wps s/ $ ( ph -> ps ) $ / $ ph $ / $ A. x ( ph -> ps ) $
 }
 ```
-
 This feature is particularly useful when the full formula is not known:
-
 ```
 proof ~stdpc5v
 { match goal
