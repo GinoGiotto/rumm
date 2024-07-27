@@ -162,7 +162,7 @@ proof ~con3i
     }
 }
 ```
-The above example provides a tactics-based proof of [~con3i](https://us.metamath.org/mpeuni/con3i.html). The metavariable `&W1` holds the expression `$ ph $`, while `&W2` holds the expression `$ ps $`, the latter is used by the `with` keyword to provide a formula for the unknown wff variable of `~nsyl`.
+The above example provides a tactics-based proof of [~con3i](https://us.metamath.org/mpeuni/con3i.html). The metavariable `&W1` holds the wff formula `ph`, while `&W2` holds the wff formula `ps`, the latter is used by the `with` keyword to provide a formula for the unknown wff variable of `~nsyl`.
 
 ---
 
