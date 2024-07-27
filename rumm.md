@@ -128,7 +128,7 @@ proof ~alinexa
     }
 }
 ```
-The example above provides a tactics-based proof of [~alinexa](https://us.metamath.org/mpeuni/alinexa.html). The goal matches with the provided formula pattern `$ ( A. x &W1 <-> -. E. x &W2 ) $`, therefore the metavariable `&W1` holds the expression `$ ( ph -> -. ps ) $`, while `&W2` holds `$ ( ph /\ ps ) $`. Since `~bitri`'s final statement does not include the wff variable `ps`, the expression carried by `&W2` is used by an apply tactics to provide a substitution for it.
+The example above provides a tactics-based proof of [~alinexa](https://us.metamath.org/mpeuni/alinexa.html). The goal matches with the provided formula pattern `$ ( A. x &W1 <-> -. E. x &W2 ) $`, therefore the metavariable `&W1` holds the wff formula `( ph -> -. ps )`, while `&W2` holds `( ph /\ ps )`. Since `~bitri`'s final statement does not include the wff variable `ps`, the expression carried by `&W2` is used by an apply tactics to provide a substitution for it.
 
 This mechanism is useful to imitate [mmj2](https://github.com/digama0/mmj2) work variables, which Rumm currently does not support. The main advantage of work variables is the ability to manipulate formulas without knowing their full extention during the proof process.
 
